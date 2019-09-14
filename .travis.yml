@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - 11
-before_install:
+  - 12.10.0
+beforinstall:
   - npm i -g firebase-tools
 cache:
   directories:
